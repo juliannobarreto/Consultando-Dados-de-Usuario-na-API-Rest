@@ -17,6 +17,9 @@
 		393F024527FEFCD50000781E /* API_testeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F024427FEFCD50000781E /* API_testeTests.swift */; };
 		393F024F27FEFCD50000781E /* API_testeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F024E27FEFCD50000781E /* API_testeUITests.swift */; };
 		393F025127FEFCD50000781E /* API_testeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F025027FEFCD50000781E /* API_testeUITestsLaunchTests.swift */; };
+		393F025E27FF00630000781E /* ListUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F025D27FF00630000781E /* ListUsersTableViewController.swift */; };
+		393F02A327FF78310000781E /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F02A227FF78310000781E /* UsersModel.swift */; };
+		393F02A527FF786E0000781E /* InforUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F02A427FF786E0000781E /* InforUsers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		393F024A27FEFCD50000781E /* API.testeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = API.testeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		393F024E27FEFCD50000781E /* API_testeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_testeUITests.swift; sourceTree = "<group>"; };
 		393F025027FEFCD50000781E /* API_testeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_testeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		393F025D27FF00630000781E /* ListUsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersTableViewController.swift; sourceTree = "<group>"; };
+		393F02A227FF78310000781E /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
+		393F02A427FF786E0000781E /* InforUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InforUsers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 			children = (
 				393F022A27FEFCD40000781E /* AppDelegate.swift */,
 				393F022C27FEFCD40000781E /* SceneDelegate.swift */,
+				393F02A227FF78310000781E /* UsersModel.swift */,
+				393F02A427FF786E0000781E /* InforUsers.swift */,
+				393F025D27FF00630000781E /* ListUsersTableViewController.swift */,
 				393F022E27FEFCD40000781E /* ViewController.swift */,
 				393F023027FEFCD40000781E /* Main.storyboard */,
 				393F023627FEFCD50000781E /* Assets.xcassets */,
@@ -263,8 +272,11 @@
 			files = (
 				393F023527FEFCD40000781E /* API_teste.xcdatamodeld in Sources */,
 				393F022F27FEFCD40000781E /* ViewController.swift in Sources */,
+				393F025E27FF00630000781E /* ListUsersTableViewController.swift in Sources */,
+				393F02A527FF786E0000781E /* InforUsers.swift in Sources */,
 				393F022B27FEFCD40000781E /* AppDelegate.swift in Sources */,
 				393F022D27FEFCD40000781E /* SceneDelegate.swift in Sources */,
+				393F02A327FF78310000781E /* UsersModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,7 +465,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.brq.API-teste";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brq.API.teste;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.brq.API-teste";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brq.API.teste;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -5,4 +5,13 @@
 //  Created by user212674 on 4/7/22.
 //
 
-import Foundation
+import UIKit
+
+class UsersModel: Codable {
+    
+    var id: Int?
+    var first_name: String?
+    var last_name: String?
+    var email: String?
+    
+}
